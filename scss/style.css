@@ -66,4 +66,22 @@ body {
 }
 .box__content-margin {
   margin: 1em;
+}
+.box__content--stats {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.box__content--stats-item {
+  padding: 0.6em;
+}
+.box__content--stats-item-header {
+  font-size: 2.4em;
+  padding-bottom: 2px;
+}
+.box__content--stats-item-description {
+  font-size: 1.2em;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
