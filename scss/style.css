@@ -80,8 +80,25 @@ body {
   padding-bottom: 2px;
 }
 .box__content--stats-item-description {
+  font-family: "Lexend Deca", sans-serif;
   font-size: 1.2em;
   line-height: 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 13em 7.8em 13em 7.8em;
+  }
+  .box {
+    flex-direction: row;
+  }
+  .box__img {
+    width: 100%;
+    height: auto;
+  }
+  .box__img, .box__img--shadow {
+    border-radius: 0.8em 0 0 0.8em;
+  }
 }/*# sourceMappingURL=style.css.map */
